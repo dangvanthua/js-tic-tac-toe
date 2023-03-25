@@ -1,5 +1,8 @@
 import { TURN } from "./constants.js";
-import { getCellElementList, getCurrentTurnElement, getGameStatusElement, getCellElementAtIdx } from "./selectors.js";
+import { getCellElementList, getCurrentTurnElement } from "./selectors.js";
+import { checkGameStatus } from "./utils.js";
+
+console.log(checkGameStatus(['X', 'O', 'O', '', 'X', '', '', 'O', 'X']));
 
 /**
  * Global variables
