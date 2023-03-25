@@ -1,3 +1,7 @@
+import { getCellElementList } from "./selectors.js";
+
+console.log(getCellElementList());
+
 /**
  * Global variables
  */
